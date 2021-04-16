@@ -1,4 +1,11 @@
 # bot-python
-Хай! config = configparser.ConfigParser() 
-config.read( 'set.ini' ) он считывает файл "set.ini"
-bot = telebot.TeleBot(config ['bot'] ['token'] ) он задает переменной значенние токена 
+Хай! Этот бот умеет показывать новости Стима через телеграм бота
+
+
+
+КАК этот бот работает?
+config = configparser.ConfigParser() он задает переменной значенние библеотеки configparser
+config.read( 'set.ini' ) он считывает файл "set.ini" 
+"set.ini" это файл который содержит токен бота.Он создан что бы можно было скинуть код друзьям 
+bot = telebot.TeleBot(config ['bot'] ['token'] ) он задает переменной значенние токена
+
